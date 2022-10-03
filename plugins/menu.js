@@ -359,7 +359,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │
-│ ▸ *Sumber :* YouTube WH-MODS-DEV
+│ ▸ *Sumber :* Mbuh Rareti
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
@@ -630,7 +630,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/WH-MODS-BOT/'
+                        url: 'https://github.com/itsme_danuu/'
                     }
                 },
                 {

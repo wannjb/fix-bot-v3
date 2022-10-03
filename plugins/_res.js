@@ -15,10 +15,10 @@ if (m.isBaileys) return
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.sendMessage(m.chat, { sticker : stc, thumbnail: await( await fetch(pp)).buffer() , contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-mediaUrl: 'https://wa.me/6282127487538',
+mediaUrl: 'https://wa.me/6288221400832',
 title: '「 ❔ 」',
 body: wm,
-sourceUrl: 'http://github.com/Wahidhidayatulla', thumbnail: await( await fetch(pp)).buffer()
+sourceUrl: 'http://github.com/ItsmeDann', thumbnail: await( await fetch(pp)).buffer()
   }
  }}, { quoted: m })
           
