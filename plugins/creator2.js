@@ -19,9 +19,9 @@ function E(I,Z){return P(Z-0x32b,I);}(function(I,Z){const l=I();function A(I,Z){
 
  //knp di enc? , biar kgk di rename deksripsi Developer nya, kalau untuk nomor nya bakal otomatis berubah pas kalian ubah di config.js
 }
-handler.help = ['whmods1', 'whmods2', 'whmods3']
+handler.help = ['anya1', 'anya2', 'anya3']
 handler.tags = ['info']
 
-handler.command = /^(whmods1|whmods2|whmods3)$/i
+handler.command = /^(anya1|anya2|anya3)$/i
 
 export default handler
