@@ -1312,7 +1312,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
   let godbye = 'https://telegra.ph/file/deaf59bc3e5216eaae814.jpg'
   conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://www.instagram.com/_ctzhid/',
+    mediaUrl: 'https://www.instagram.com/mhdkrnwnn_',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
@@ -1377,7 +1377,7 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.antidelete)
             return
-            this.send2ButtonDoc(msg.key.remoteJid, `Terdeteksi *@${participant.split`@`[0]}* telah menghapus pesan.
+            this.send2ButtonDoc(msg.key.remoteJid, `Ea Apaan tu kok di hapus Banh 👀, itukah Banh ☝️.
 Untuk mematikan fitur ini, ketik
 *.off antidelete*
 
