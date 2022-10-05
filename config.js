@@ -49,32 +49,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/itsme_danuu' // ig
-global.sgh = 'https://github.com/ekadanuarta/' // github
-global.sgc = 'https://chat.whatsapp.com/I9d5OyutWnA6BulfShh9tr' // group whatsapp
-global.sdc = '___'//discord
-global.snh = '_____' // my youtube channel
-global.sfb = 'https://www.facebook.com/itsmedann' // facebook
-global.syt = '_____' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
+global.sig = 'https://instagram.com/xianzhe_xx' // ig
+global.sgh = 'https://github.com/xianzhe2/' // github
+global.sgc = 'https://chat.whatsapp.com/HP5Pbp9MT0eIaC5lfJgw9A' // group whatsapp
+global.sdc = '-'//discord
+global.snh = '-' // my youtube channel
+global.sfb = '-' // facebook
+global.syt = '-' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '6288221400832' //dana
-global.povo = '____' //ovo
-global.pgopay = '6288221400832' //gopay
-global.plinkaja = '___' //link aja
-global.ppulsa = '6288221400832' //telkomsel
-global.ppulsa2 = '6288221400832' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/Ekadanuarta'
+global.pdana = '6285326781097' //dana
+global.povo = '-' //ovo
+global.pgopay = '-' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '6285326781097' //telkomsel
+global.ppulsa2 = '-' // kalau ada kartu lain isi aja
+global.psaweria = '-'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '62XXXXXXXXXXX'
-global.nomorown = '6288221400832'
-global.namebot = 'AnyaBot V2'
-global.nameown = 'ItsmeDann'
+global.nomorown = '6285326781097'
+global.namebot = 'Feixuan-Bot V1'
+global.nameown = 'Xianzhe'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'Ekadanuarta' // nama github lu
-global.linkgithub = 'https://github.com/ekadanuarta' // tarok link github lu
+global.namagithub = 'Xianzhe2'
+global.linkgithub = 'https://github.com/xianzhe2' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
@@ -85,8 +85,8 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288221400832', 'ItsmeDann', true],
-  ['-', 'ISI KALAU ADA', true],
+  ['6285326781097', 'Xianzhe', true],
+  ['6285358805324', 'Feixuan', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
@@ -150,12 +150,12 @@ global.author = '                「 AnyaBotV2  あ」'
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
 global.fpagedoc = '1'.repeat(10)
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
 global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
@@ -606,7 +606,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -630,14 +630,14 @@ global.pmenus = '✦' //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
-global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
-global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
+global.lopr = 'P' //LOGO PREMIUM ON MENU.JS
+global.lolm = 'L' //LOGO LIMIT/FREE ON MENU.JS
 global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'AnyaBotV2'
-global.stickauth = `By ©ItsmeDann`
+global.stickpack = 'By'
+global.stickauth = `Xianzhe-BOT`
 
 global.multiplier = 38 // The higher, The harder levelup
 
