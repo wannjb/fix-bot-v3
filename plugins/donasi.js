@@ -18,10 +18,10 @@ let str = `${global.wm}
 let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/itsme_danuu",
+    mediaUrl: "https://Instagram.com/xianzhe_xx",
     mediaType: "VIDEO",
-    description: "https://github.com/ekadanuarta/", 
-    title: 'AnyaBotV2 MultiDevice',
+    description: "https://github.com/xianzhe2/", 
+    title: 'FeixuanBOT-V1 | MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig

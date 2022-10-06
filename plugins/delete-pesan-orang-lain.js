@@ -4,7 +4,7 @@ let handler = function (m) {
     if (!fromMe) throw true
     conn.sendMessage(chat, { delete: m.quoted.vM.key })
 }
-handler.help = ['Feixuan><', 'Xianzhe^^]
+handler.help = ['Xia Feixuan', 'Xianzhe ID]
 handler.tags = ['owner']
 handler.owner = true
 
