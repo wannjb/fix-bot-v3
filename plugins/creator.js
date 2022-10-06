@@ -47,7 +47,7 @@ const sections = [
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
-	title: `${htjava} SUPPORT ME –––––––·•`,
+	title: `${htjava} SUPPORT –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".owner nomor"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
@@ -60,7 +60,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "Klik Bre",
   sections
 }
 
