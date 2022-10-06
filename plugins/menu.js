@@ -271,28 +271,28 @@ let usrs = db.data.users[m.sender]
 
 const sections = [
    {
-    title: `${htki} MAIN ${htka}`,
+    title: `${htki} Menu WannTrue ${htka}`,
     rows: [
-        {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
-        {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-        {title: `⏰ ${pmenus} RUNTIME BOT`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 Waktu Bot Berjalan"}, 
-        {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
+        {title: `⚡ ${pmenus} SPEED WannTrue BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon WannTrue BOT"},
+        {title: `💌 ${pmenus} OWNER WannTrue BOT`, rowId: ".owner", description: "Menampilkan List owner WannTrue BOT"},
+        {title: `⏰ ${pmenus} RUNTIME WannTrue BOT`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 Waktu WannTrue Bot Berjalan"}, 
+        {title: `📔 ${pmenus} SCRIPT WannTrue BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
         title: `${htki} SUPPORT ${htka}`,
         rows: [
             {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-            {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+            {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support Untuk mengemis'},
         ]
         },{
           title: `${htki} MENU MENFESS ${htka}`,
           rows: [
-            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
+            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Command Menfess"},
           ]},{
-        title: `${htki} MENU ${htka}`,
+        title: `${htki} ALL MENU ${htka}`,
         rows: [
-            {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+            {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command WannTrue BOT"},
             {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
         {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
         {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -359,12 +359,12 @@ let tek = `✧────···[ Dashboard ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │
-│ ▸ *Sumber :* YouTube WH-MODS-DEV
+│ ▸ *Sumber :* INSTAGRAM WannTrue 😎
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ Beri jeda ya Bre ^ω^
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
@@ -376,7 +376,7 @@ const listMessage = {
   footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `SILAKAN KLIK © WannTrue`, 
   sections
 }
   if (teks == '404') {
@@ -557,7 +557,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^ω^', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Bre ^ω^', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -571,7 +571,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*Tunggu Sebentar Bre. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
@@ -630,7 +630,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/WH-MODS-BOT/'
+                        url: 'https://github.com/wannjb/'
                     }
                 },
                 {
@@ -665,7 +665,7 @@ const listMessage = {
     // conn.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/XZrK6yQ/transformers.jpg' }, text, footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
 
     // FIX MENU WHATSAPP BASE NEW DAN BAKAL EXPIRED SAAT MARK SUDAH FIX WHATSAPP UPDATE ENTAH VERSI BERAPA
-    // MAU YANG NO ENC 10K AJA , MINAT PC GW wa.me/6282127487538
+    // MAU YANG NO ENC 10K AJA , MINAT PC GW wa.me/62895327999292
     // MAU YANG NO ENC MENFESS BALAS NAMBAH 5K :), TOTAL HARGA 15K EXPIRED SAMPAI TANGGAL 20 OKTOBER 2022
 
     // KALAU UDAH LEWAT TANGGAL 20 OKTOBER 2022 HARGA TOTAL AKAN MENJADI 25K
@@ -730,18 +730,18 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Kok Belum Tidur Kak? 🥱"
+  let res = "Kok Belum Tidur Bre? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Pagi Sod 🌄"
   }
   if (time >= 10) {
-    res = "Siang Lord ☀️"
+    res = "Siang Sod ☀️"
   }
   if (time >= 15) {
-    res = "Sore Lord 🌇"
+    res = "Sore Sod 🌇"
   }
   if (time >= 18) {
-    res = "Malam Lord 🌙"
+    res = "Malam Sod 🌙"
   }
   return res
 }
