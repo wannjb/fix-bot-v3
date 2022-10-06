@@ -61,7 +61,7 @@ global.pdana = '0895327999292' //dana
 global.povo = '0895327999292' //ovo
 global.pgopay = '089518377899' //gopay
 global.plinkaja = '0895327999292' //link aja
-global.ppulsa = 'TIDAK TERSEDIA❗' //telkomsel
+global.ppulsa = '0895327999292' //telkomsel
 global.ppulsa2 = '0895327999292' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
@@ -141,7 +141,7 @@ global.wm2 = '© WannTrue '
 global.wm3 = '⫹⫺ WannTrue '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By WannTrue`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
 global.author = '                「 W A N N • T R U E」'
 
