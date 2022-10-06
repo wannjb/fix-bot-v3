@@ -359,7 +359,6 @@ let tek = `✧────···[ Dashboard ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │
-│ ▸ *Sumber :* INSTAGRAM WannTrue 😎
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
