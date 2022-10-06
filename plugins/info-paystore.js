@@ -71,7 +71,7 @@ const listMessage = {
   text: info,
   footer: botdate,
   title: wm,
-  buttonText: "Click Here!",
+  buttonText: "Klik Bre",
   sections
 }
 await conn.sendMessage(m.chat, listMessage)
