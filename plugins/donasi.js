@@ -18,9 +18,9 @@ let str = `${global.wm}
 let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://Instagram.com/mhdkrnwnn_",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
+    description: "https://vt.tiktok.com/ZSR4Kw2fP/", 
     title: 'WannTrue MultiDevice',
     body: wm,
     thumbnail: thumb,
