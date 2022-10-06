@@ -64,13 +64,13 @@ global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
 global.ppulsa = '6285326781097' //telkomsel
 global.ppulsa2 = '-' // kalau ada kartu lain isi aja
-global.psaweria = '-'
+global.psaweria = 'https://saweria.co/xianzhe'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62XXXXXXXXXXX'
+global.nomorbot = '6285358805324'
 global.nomorown = '6285326781097'
 global.namebot = 'Feixuan-Bot V1'
-global.nameown = 'Xianzhe'
+global.nameown = 'Xianzhe-Bot'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'Xianzhe2'
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 AnyaBotV2 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘AnyaBotV2 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ AnyaBotV2'
+global.wm = '                「 Feixuan-BOT 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Feixuan BOT | Xianzhe ID˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ Feixuan-BOT'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By ItsmeDann`
+global.titlebot = `⫹⫺ WhatsApp Bot | By Xianzhe.ID`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 AnyaBotV2  あ」'
+global.author = '              「  Feixuan-BOT  」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -157,8 +157,8 @@ global.thumbdoc = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 global.thumb = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://telegra.ph/file/daac0b318cf05fd3cdb2b.jpg']
+global.fla = 'https://telegra.ph/file/daac0b318cf05fd3cdb2b.jpg'
 global.thumbnailUrl = [
 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
 'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -589,11 +589,31 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 global.hyuri = ['https://telegra.ph/file/5d908f4a17515a15c6202.jpg']
-global.hLokun = ['https://telegra.ph/file/8902f4fc550727a62e99f.jpg','https://telegra.ph/file/6a6a40e924c16a8f0de03.jpg', 'https://telegra.ph/file/b035d3038a0b124f1d846.jpg', 'https://telegra.ph/file/9d475f7852bf6f6193c80.jpg']
-global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg', 'https://telegra.ph/file/f6bbb53620374257bfa51.jpg','https://telegra.ph/file/9b76375f3869440818d57.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg']
-global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg', 'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg','https://telegra.ph/file/b6905b77e6c7732592a13.jpg', 'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
-global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg', 'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg', 'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
-global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://telegra.ph/file/b6905b77e6c7732592a13.jpg','https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 'https://telegra.ph/file/59e78846ee365975ee6e3.jpg','https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg','https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
+global.hLokun = ['https://telegra.ph/file/8902f4fc550727a62e99f.jpg',
+'https://telegra.ph/file/6a6a40e924c16a8f0de03.jpg', 
+'https://telegra.ph/file/b035d3038a0b124f1d846.jpg', 
+'https://telegra.ph/file/9d475f7852bf6f6193c80.jpg']
+global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg', 
+'https://telegra.ph/file/f6bbb53620374257bfa51.jpg', 
+'https://telegra.ph/file/9b76375f3869440818d57.jpg', 
+'https://telegra.ph/file/a78443f0ee887f46808d7.jpg']
+global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg',
+'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg',
+'https://telegra.ph/file/b6905b77e6c7732592a13.jpg',
+'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 
+'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
+global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg',
+'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg',
+'https://telegra.ph/file/cc8255d5b989eef587af2.jpg',
+'https://telegra.ph/file/30d2e7375996abd9cfee3.jpg', 
+'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg', 
+'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
+global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 
+'https://telegra.ph/file/b6905b77e6c7732592a13.jpg',
+'https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 
+'https://telegra.ph/file/59e78846ee365975ee6e3.jpg',
+'https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg',
+'https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
 
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
@@ -609,7 +629,7 @@ global.drtf = 'text/rtf'
 global.thumbdoc = 'https://telegra.ph/file/9c44ff3dea63746735732.jpg'
 
 /*=========== FAKE SIZE ===========*/
-global.fsizedoc = '99999999999999' // default 10TB
+global.fsizedoc = '9876543' // default 10TB
 global.fpagedoc = '999'
 
 /*=========== HIASAN ===========*/
@@ -637,7 +657,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'By'
-global.stickauth = `Xianzhe-BOT`
+global.stickauth = `Feixuan-BOT`
 
 global.multiplier = 38 // The higher, The harder levelup
 
