@@ -7,11 +7,7 @@ m.reply(`
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
-│ *Agama    :* 
-|  *Status     :* 
+│ *Asal         :*
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
@@ -28,20 +24,16 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
-│ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
-|  *Status     :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/itsme_danuu",
-    mediaType: "VIDEO",
-    description: "https://www.instagram.com/itsme_danuu", 
-    title: 'AnyaBotV2 MultiDevice',
+    mediaUrl: "https://Instagram.com/xianzhe_xx",
+    mediaType: "IMAGE",
+    description: "https://www.instagram.com/xianzhe_xx", 
+    title: 'Feixuan-BOT V1 | MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc

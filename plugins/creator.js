@@ -23,7 +23,7 @@ ${htjava} *💌 Nama* : Xianzhe
 ${htjava} *✉️ Nama RL* : -
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
+${htjava} *⏰ Tanggal lahir* : Private 
 ${htjava} *🎨 Umur* : Private
 ${htjava} *🧮 Kelas* : SUDAH TAMAT
 ${htjava} *🧩 Hobby* : Turu

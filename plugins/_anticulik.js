@@ -35,17 +35,17 @@ export async function all(m) {
         ╰═┅═━––––––๑
         
         ⫹⫺ PAYMENT:
-        • Pulsa Smartfren: [6288221400832]
-        • Dana: [6288221400832]
-        • Gopay: [6288221400832]
+        • Pulsa Tsel: [6285326781097]
+        • Dana: [6285326781097]
+        • Gopay: [-]
         
         
         Nomor Owner :
-        wa.me/6288221400832
+        wa.me/6285326781097
         
         ▌│█║▌║▌║║▌║▌║█│▌
         
-        #BY ItsmeDann
+        #BY FeixuanBOT-V1
         `.trim(), wm, 'Pemilik Bot', '.owner', m)
 await this.reply(nomorown + '@s.whatsapp.net', `Ada Yang Mau Nyulik nih :v \n\ndari: @${m.sender.split("@")[0]} \n\npesan: ${m.text}`, m, { mentions: [m.sender] })
     }

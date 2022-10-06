@@ -42,7 +42,7 @@ var dimas3 = `
 `
 
 var dimas4 = `
-🥵💦💦Ahhhhhh😫
+🥵💦💦Kyaaaa😵
 `
 
 var hsl = `

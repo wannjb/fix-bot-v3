@@ -14,7 +14,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `\n\t\t*⏰ʀᴜɴᴛɪᴍᴇ「 \t${pad(days)}D\t ${pad(hours)}H ${pad(minutes)}M ${pad(seconds)}S \t」*\n`
+  return `\n\t\t*⏰RUNTIME「 \t${pad(days)}D\t ${pad(hours)}H ${pad(minutes)}M ${pad(seconds)}S \t」*\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
@@ -41,7 +41,7 @@ token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
-sellerJid: '6282127487538@s.whatsapp.net',
+sellerJid: '6285326781097@s.whatsapp.net',
 thumbnail: fs.readFileSync('./thumbnail.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
