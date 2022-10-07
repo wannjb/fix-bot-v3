@@ -329,10 +329,10 @@ let tek = `✧────···[ Dashboard ]···────✧
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 ┬
-│${emot} 「 Hai Kak👋 」
+│${emot} 「 Hai Bre👋 」
 ├❖ 「 ${conn.getName(m.sender)} 」
 ├❖  Bagaimana Harimu? 😄
-├❖  Terima Kasih Telah Menggunakan Bot Kami
+├❖  Terima Kasih Telah Menggunakan Bot © WannTrue 
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │  「 *U s e r  I n f o 克* 」
@@ -358,14 +358,9 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
-│
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ Beri jeda ya Bre ^ω^
-│
-├━━━━━━━━━━━━━━━━┈─⋆
+┬ 
 │${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 │${emot} *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 │${emot} ${clockStringP(usrs.premiumTime - new Date())}` : ''}
@@ -522,7 +517,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: `Hai Kak ${name}!`, 
+    message: `Hai Bre ${name}!`, 
 
     orderTitle: `▮Menu ▸`,
 
