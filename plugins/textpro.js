@@ -90,4 +90,4 @@ async function textpro(url, text) {
   return `https://textpro.me${hasil.fullsize_image}`;
 }
 
-module.exports = sticker-ttp
+module.exports = textpro
