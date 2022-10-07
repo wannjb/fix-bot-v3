@@ -372,15 +372,7 @@ const listMessage = {
   title: ``,
   buttonText: `SILAKAN KLIK © WannTrue`, 
   sections
-conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
-    title: 'Elaina-MultiDevice',
-    body: 'want source code?',
-    thumbnail: thumb,
-    sourceUrl: sig
-  }
-  } }) 
-          }
+}
   if (teks == '404') {
   	return conn.sendMessage(m.chat, listMessage, { quoted: fkontak, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
