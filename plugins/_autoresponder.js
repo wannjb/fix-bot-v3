@@ -56,12 +56,12 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
 /* - - - - - - - Ini autoresponder by arie - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regc = /(aku sayang kamu)/i
+    let regc = /(Ma aci ^_^)/i
     let isSayangKamu = regc.exec(m.text)
     let saymu = [
-'❤️',
-'🥰',
-'😍'
+'😅',
+'😐',
+'🙄'
 ]
 let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
     if (isSayangKamu && !m.fromMe) {
@@ -71,7 +71,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${sayangkamuh}`, m)
+        conn.reply(m.chat, `Y ${sayangkamuh}`, m)
     }, 1000)
     }
     
