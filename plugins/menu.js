@@ -372,21 +372,17 @@ const listMessage = {
   title: ``,
   buttonText: `SILAKAN KLIK © WannTrue`, 
   sections
-let wibu = `https://telegra.ph/file/efbf6b53a658d683aaa71.jpg` 
-let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/mhdkrnwnn_",
-    mediaType: "VIDEO",
-    description: "https://vt.tiktok.com/ZSR4Kw2fP/", 
-    title: 'WannTrue MultiDevice',
-    body: wm,
+conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    title: 'Elaina-MultiDevice',
+    body: 'want source code?',
     thumbnail: thumb,
     sourceUrl: sig
   }
   } }) 
           }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: fakes, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: fkontak, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
 	  
  /**************************** TIME *********************/
