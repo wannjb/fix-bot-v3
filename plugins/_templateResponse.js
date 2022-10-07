@@ -1,64 +1,62 @@
-const fs = require('fs')
+const {
+    proto,
+    generateWAMessage,
+    areJidsSameUser
+} = (await import('@adiwajshing/baileys')).default
 
-/**
- * Add Commands/Response message to database
- * @param {String} hex
- * @param {Sstring} response
- * @param {String} userId
- * @param {Object} data
- * @returns true
- */
-const addRespons = (hex, response, userId, _data) => {
-    const obj = {
-        hex: hex,
-        balasan: response,
-        creator: userId
+export async function all(m, chatUpdate) {
+    if (m.isBaileys) return
+    if (!m.message) return
+    if (!(m.message.buttonsResponseMessage || m.message.templateButtonReplyMessage || m.message.listResponseMessage)) return
+    let id = m.message.buttonsResponseMessage?.selectedButtonId || m.message.templateButtonReplyMessage?.selectedId || m.message.listResponseMessage?.singleSelectReply?.selectedRowId
+    let text = m.message.buttonsResponseMessage?.selectedDisplayText || m.message.templateButtonReplyMessage?.selectedDisplayText || m.message.listResponseMessage?.title
+    let isIdMessage = false, usedPrefix
+    for (let name in global.plugins) {
+        let plugin = global.plugins[name]
+        if (!plugin) continue
+        if (plugin.disabled) continue
+        if (!opts['restrict']) {
+            if (plugin.tags && plugin.tags.includes('admin')) continue
+        }
+        if (typeof plugin !== 'function') continue
+        if (!plugin.command) continue
+        const str2Regex = str => str.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
+        let _prefix = plugin.customPrefix ? plugin.customPrefix : this.prefix ? this.prefix : global.prefix
+        let match = (_prefix instanceof RegExp ? // RegExp Mode?
+            [[_prefix.exec(id), _prefix]] : Array.isArray(_prefix) ? // Array?
+                _prefix.map(p => {
+                    let re = p instanceof RegExp ? // RegExp in Array?
+                        p : new RegExp(str2Regex(p))
+                    return [re.exec(id), re]
+                }) : typeof _prefix === 'string' ? // String?
+            [[new RegExp(str2Regex(_prefix)).exec(id), new RegExp(str2Regex(_prefix))]] : [[[], new RegExp]]
+        ).find(p => p[1])
+        if ((usedPrefix = (match[0] || '')[0])) {
+            let noPrefix = id.replace(usedPrefix, '')
+            let [command] = noPrefix.trim().split` `.filter(v => v)
+            command = (command || '').toLowerCase()
+            let isId = plugin.command instanceof RegExp ? // RegExp Mode?
+                plugin.command.test(command) : Array.isArray(plugin.command) ? // Array?
+                    plugin.command.some(cmd => cmd instanceof RegExp ? // RegExp in Array?
+                cmd.test(command) : cmd === command) : typeof plugin.command === 'string' ? // String?
+            plugin.command === command : false
+            if (!isId) continue
+            isIdMessage = true
+        }
     }
-    _data.push(obj)
-    fs.writeFileSync('./database/respon.json', JSON.stringify(_data))
-
-    return true
-}
-
-
-/**
- * Delete commands from database
- * @param {String} command
- * @param {Object} _data
- */
-const deleteRespons = (command, _data) => {
-    Object.keys(_data).forEach((i) => {
-        if (_data[i].hex === command) {
-            _data.splice(i, 1)
-            fs.writeFileSync('./database/respon.json', JSON.stringify(_data))
-        }
+    let messages = await generateWAMessage(m.chat, { text: isIdMessage ? id : text, mentions: m.mentionedJid }, {
+        userJid: this.user.id,
+        quoted: m.quoted && m.quoted.fakeObj
     })
-    return true
-}
-
-
-/**
- * Check command is available or not
- * @param {String} command
- * @param {Object} _data
- * @returns {Boolean}
- */
-
-const checkRespons = (commands, _data) => {
-    let status = false
-    Object.keys(_data).forEach((i) => {
-        if (_data[i].hex === commands) {
-            status = true
-        }
-    })
-
-    return status
-}
-
-
-
-module.exports = {
-    addRespons,
-    deleteRespons,
-    checkRespons
+    messages.key.fromMe = areJidsSameUser(m.sender, this.user.id)
+    messages.key.id = m.key.id
+    messages.pushName = m.name
+    if (m.isGroup)
+        messages.key.participant = messages.participant = m.sender
+    let msg = {
+        ...chatUpdate,
+        messages: [proto.WebMessageInfo.fromObject(messages)].map(v => (v.conn = this, v)),
+        type: 'append'
+    }
+    this.ev.emit('messages.upsert', msg)
 }
