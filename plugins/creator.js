@@ -6,16 +6,14 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 //------- NOMOR
   let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
-  let teksnomor = `${htki} *OWNER* ${htka}
-✦ @${nomorown.split`@`[0]} ✦
+  let teksnomor = `${htki} *LINK* ${htka}
+✦ https://www.xvideos.com/?k=korea&top ✦
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+ Link +18 ini, tidak di bolehkah untuk anak dibawah umur 17th
+ Link ini mendapatkan dampak buruk buat lu
+ Tapi kalo elu pengen Crot² 💦 Link ini solusinya 🤤💦`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
@@ -42,6 +40,7 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	{title: "📱 • Nomor Owner", rowId: ".whmods1"},
+	{title: "📱 • Bonus Link Bok**", rowId: ".owner"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
