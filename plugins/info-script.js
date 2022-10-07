@@ -5,11 +5,12 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let str = `*https://Instagram.com/mhdkrnwnn_*
 
 Pengen Scriptnya ?
-Ada bre tapi versi ori
+Ada bre, santai...
 https://github.com/ImYanXiao/Elaina-MultiDevice
 
-Pengen Script seperti ini?
-Script bot ini dijual bila kalian mau bisa chat owner
+Pengen ubah owner V2?
+Jika mau ubah owner V2 menjadi nomor owner kamu
+bisa chat owner di ⬇️
 
 wa.me/62895327999292`
 let wibu = `https://telegra.ph/file/efbf6b53a658d683aaa71.jpg` 
