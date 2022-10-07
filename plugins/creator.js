@@ -11,9 +11,11 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
- Link +18 ini, tidak di bolehkah untuk anak dibawah umur 17th
+ Link +18 ini, tidak di bolehkah untuk anak 
+ dibawah umur 17th
  Link ini mendapatkan dampak buruk buat lu
- Tapi kalo elu pengen Crot² 💦 Link ini solusinya 🤤💦`
+ Tapi kalo elu pengen Crot² 💦 
+ Link ini solusinya 🤤💦`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
@@ -28,7 +30,7 @@ ${htjava} *🧮 Kelas* : PRIVATE
 ${htjava} *🧩 Hobby* : BADMINTON 
 ${htjava} *💬 Sifat* : Cool 🥶💦
 ${htjava} *🗺️ Tinggal* : Kalimantan utara 
-${htjava} *❤️ Waifu* : Comot 🗿
+${htjava} *❤️ Waifu* : Hilda 🗿
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
@@ -40,14 +42,14 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	{title: "📱 • Nomor Owner", rowId: ".whmods1"},
-	{title: "📱 • Bonus Link Bok**", rowId: ".owner"},
+	{title: "💦 • Bonus Link +18", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
+	    {title: "💹 • Donasi", rowId: ".donasi"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
 	{title: "🌟 • Buy Premium", rowId: ".premium"},
 	]
