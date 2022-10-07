@@ -14,7 +14,8 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Owner tidak menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
-• Owner juga menerima jual beli akun 
+• Owner Hanya merespon yang berkaitan dengan BOT
+• No Telp`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
@@ -23,19 +24,19 @@ ${htjava} *💌 Nama* : Muhammad Kurniawan
 ${htjava} *✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 
-${htjava} *🎨 Umur* : Private
-${htjava} *🧮 Kelas* : private 
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : COOL
-${htjava} *🗺️ Tinggal* : Kalimantan utara
-${htjava} *❤️ Waifu* : -
+${htjava} *⏰ Tanggal lahir* : Private
+${htjava} *🎨 Umur* : 15
+${htjava} *🧮 Kelas* : PRIVATE
+${htjava} *🧩 Hobby* : BADMINTON 
+${htjava} *💬 Sifat* : Cool 🥶💦
+${htjava} *🗺️ Tinggal* : Kalimantan utara 
+${htjava} *❤️ Waifu* : Comot 🗿
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Silakan bre © WannTrue '
+  let teks = 'Pilih dibawah Bre o(〃＾▽＾〃)o'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
@@ -45,7 +46,7 @@ const sections = [
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
-	title: `${htjava} SUPPORT –––––––·•`,
+	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".owner nomor"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
