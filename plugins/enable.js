@@ -33,7 +33,7 @@ const listMessage = {
   text: ' ',
   footer: botdate,
   title: `*${htki} OPTIONS ${htka}*`,
-  buttonText: "Click Here!",
+  buttonText: "Klik Bre",
   sections
 }
 
