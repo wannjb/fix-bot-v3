@@ -2,13 +2,13 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow*
+let str = `*https://Instagram.com/mhdkrnwnn_*
 
-Pengen mentahan nya ?
-Nih ada santai bro....
+Pengen Scriptnya ?
+Ada bre tapi versi ori
 https://github.com/ImYanXiao/Elaina-MultiDevice
 
-Pengen yang udah di recode oleh owner?
+Pengen Script seperti ini?
 Script bot ini dijual bila kalian mau bisa chat owner
 
 wa.me/62895327999292`
