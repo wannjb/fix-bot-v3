@@ -17,7 +17,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
-  let teks = 'Pilih Dibawah kak Model Runtime Nya ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih Dibawah Bre Model Runtime Nya ^_^'
 const sections = [
    {
 	title: `${htjava} Runtime –––––––––·•`,
