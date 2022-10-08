@@ -1,4 +1,4 @@
-  let teks = 'LU KAYAK KONTOL'
+  let teks = 'Klik KONTOL'
 const sections = [
    {
 	title: `${htjava} NGAMOK –––––––––·•`,
@@ -21,7 +21,16 @@ const sections = [
 const listMessage = {
   text: teks,
   footer: null,
-  title: `${htki} *Wann* ${htka}`,
-  buttonText: "Klik Bre",
+  title: `${htki} *LU KAYAK KONTOL* ${htka}`,
+  buttonText: "Klik deck",
   sections
 }
+
+  try {
+    if (/(wann)/i.test(command)) {
+      const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
+        switch (type) {
+          case 'nomor':
+          conn.reply(m.chat, teksnomor, m, { contextInfo: { mentionedJid: [nowner] }})
+            break
+            case 'bio':
