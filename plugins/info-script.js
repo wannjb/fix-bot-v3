@@ -13,8 +13,7 @@ Jika mau ubah owner V2 menjadi nomor owner kamu
 bisa chat owner di ⬇️
 
 wa.me/62895327999292`
-let str = `*https://telegra.ph/file/efbf6b53a658d683aaa71.jpg*`
-let wibu = `https://hadi-api.herokuapp.com/api/loli` 
+let wibu = `https://telegra.ph/file/efbf6b53a658d683aaa71.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Ma aci ^_^','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/mhdkrnwnn_",
