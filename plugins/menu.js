@@ -319,7 +319,7 @@ const sections = [
         {title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
         {title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
         {title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-        {title: `🤪 ${pmenus} Gak jadi`, rowId: "wann", description: "Awokawokawok"},
+        {title: `🤪 ${pmenus} Gak jadi`, rowId: "bilek", description: "Awokawokawok"},
         ]
         },
 ]
