@@ -17,12 +17,10 @@ let wibu = `https://telegra.ph/file/efbf6b53a658d683aaa71.jpg`
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Ma aci ^_^','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/mhdkrnwnn_",
-    mediaType: "VIDEO",
-    description: "https://vt.tiktok.com/ZSR4Kw2fP/", 
     title: 'WannTrue MultiDevice',
-    body: wm,
+    body: 'want source code?',
     thumbnail: thumb,
-    sourceUrl: sgc
+    sourceUrl: sig
   }
   } }) 
           }
