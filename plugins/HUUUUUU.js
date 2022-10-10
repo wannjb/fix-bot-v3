@@ -33,7 +33,7 @@ function pickRandom(list) {
 }
 let stikerhuuu = [
  "https://telegra.ph/file/fa2bbea0f7de2575cf027.png",//patrick huu
- "https://telegra.ph/file/4a2db7bc9f3f9ecfc007d.png",//anime yntkts
+ "https://telegra.ph/file/efbf6b53a658d683aaa71.jpg",//anime yntkts
  "https://telegra.ph/file/5f6079714851d9927697e.png",//windah bocil
  "https://telegra.ph/file/d5100b4ce95a0012e88c1.png",//patrick bawa minum
  "https://telegra.ph/file/2ade25087c89f86587853.png",//pak polisi pap tt
