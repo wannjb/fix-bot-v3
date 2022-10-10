@@ -274,9 +274,9 @@ const sections = [
     title: `${htki} Menu WannTrue ${htka}`,
     rows: [
         {title: `⚡ ${pmenus} SPEED WannTrue BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon WannTrue BOT"},
-        {title: `💌 ${pmenus} OWNER WannTrue BOT`, rowId: ".owner", description: "Menampilkan List owner WannTrue BOT"},
+        {title: `👤 ${pmenus} OWNER WannTrue BOT`, rowId: ".owner", description: "Menampilkan List owner WannTrue BOT"},
         {title: `⏰ ${pmenus} RUNTIME WannTrue BOT`, rowId: ".runtime", description: "Menampilkan Waktu WannTrue Bot Berjalan"}, 
-        {title: `📔 ${pmenus} SCRIPT WannTrue BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
+        {title: `💌 ${pmenus} SCRIPT WannTrue BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
         title: `${htki} SUPPORT ${htka}`,
@@ -358,12 +358,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
-│
-│ ▸ *Sumber :* WannTrue MULTIDEVICE
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
-┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
-✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
