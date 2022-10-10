@@ -7,15 +7,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------- NOMOR
   let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
   let teksnomor = `${htki} *LINK* ${htka}
-✦ https://www.xvideos.com/?k=korea&top ✦
-------- ${nameown} -------
-
-📮 *Note:*
- Link +18 ini, tidak di bolehkah untuk anak 
- dibawah umur 17th
- Link ini mendapatkan dampak buruk buat lu
- Tapi kalo elu pengen Crot² 💦 
- Link ini solusinya 🤤💦`
+✦ https://www.xvideos.com ✦
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
