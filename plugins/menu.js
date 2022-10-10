@@ -283,7 +283,7 @@ const sections = [
         rows: [
             {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-            {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support Untuk mengemis'},
+            {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support Untuk pengemis'},
         ]
         },{
           title: `${htki} MENU MENFESS ${htka}`,
@@ -329,10 +329,10 @@ let tek = `✧────···[ Dashboard ]···────✧
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 ┬
-│${emot} 「 Hai Bre👋 」
+│${emot} 「 Hai Kak👋 」
 ├❖ 「 ${conn.getName(m.sender)} 」
 ├❖  Bagaimana Harimu? 😄
-├❖  Terima Kasih Telah Menggunakan Bot ane
+├❖  Terima Kasih Telah Menggunakan Bot Kami
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │  「 *U s e r  I n f o 克* 」
@@ -356,7 +356,18 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} *${Object.keys(global.db.data.users).length}* Pengguna
 │${emot} *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │${emot} *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-├━━━━━━━━━━━━━━━━┈─⋆ *ᴏᴡɴᴇʀ :* ${nameown}
+│
+├━━━━━━━━━━━━━━━━┈─⋆
+│
+│ ▸ *Sumber :* WannTrue MULTIDEVICE
+│ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
+┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
+✧
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│
+├━━━━━━━━━━━━━━━━┈─⋆
+│${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 │${emot} *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 │${emot} ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ╰━━━━━━━━━━━━━━━━┈─◂`
