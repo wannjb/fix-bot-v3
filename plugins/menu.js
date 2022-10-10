@@ -275,7 +275,7 @@ const sections = [
     rows: [
         {title: `⚡ ${pmenus} SPEED WannTrue BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon WannTrue BOT"},
         {title: `💌 ${pmenus} OWNER WannTrue BOT`, rowId: ".owner", description: "Menampilkan List owner WannTrue BOT"},
-        {title: `⏰ ${pmenus} RUNTIME WannTrue BOT`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 Waktu WannTrue Bot Berjalan"}, 
+        {title: `⏰ ${pmenus} RUNTIME WannTrue BOT`, rowId: ".runtime", description: "Menampilkan Waktu WannTrue Bot Berjalan"}, 
         {title: `📔 ${pmenus} SCRIPT WannTrue BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
@@ -332,7 +332,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} 「 Hai Bre👋 」
 ├❖ 「 ${conn.getName(m.sender)} 」
 ├❖  Bagaimana Harimu? 😄
-├❖  Terima Kasih Telah Menggunakan Bot © WannTrue 
+├❖  Terima Kasih Telah Menggunakan Bot ane
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │  「 *U s e r  I n f o 克* 」
@@ -356,12 +356,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} *${Object.keys(global.db.data.users).length}* Pengguna
 │${emot} *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │${emot} *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-│
-├━━━━━━━━━━━━━━━━┈─⋆
-┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
-✧
-┬ 
-│${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+├━━━━━━━━━━━━━━━━┈─⋆ *ᴏᴡɴᴇʀ :* ${nameown}
 │${emot} *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 │${emot} ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ╰━━━━━━━━━━━━━━━━┈─◂`
