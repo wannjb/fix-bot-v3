@@ -49,32 +49,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/xianzhe_xx' // ig
-global.sgh = 'https://github.com/xianzheid/' // github
-global.sgc = 'https://chat.whatsapp.com/HP5Pbp9MT0eIaC5lfJgw9A' // group whatsapp
+global.sig = 'https://instagram.com/mhdkrnwnn_' // ig
+global.sgh = 'https://github.com/wannjb' // github
+global.sgc = 'https://chat.whatsapp.com/GwCTefLrBr85NFFrqDE1pK' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
 global.snh = 'https://youtube.com/channel/UCZr8qo58_6ZNhvt5pYVox9Al' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
 global.syt = 'https://youtube.com/channel/UCZr8qo58_6ZNhvt5pYVox9Al'' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '+62 853-2678-1097' //dana
-global.povo = '+62 853-2678-1097' //ovo
-global.pgopay = '+62 853-2678-1097' //gopay
+global.pdana = '+62 895-3279-99292' //dana
+global.povo = '+62 895-3279-99292' //ovo
+global.pgopay = '+62 895-1837-7899' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '+62 853-2678-1097' //telkomsel
-global.ppulsa2 = '+62 853-5880-5324' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/xianzhe'
+global.ppulsa = '+62 895-3279-99292' //telkomsel
+global.ppulsa2 = '++62 895-3279-99292' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.com'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285358805324'
-global.nomorown = '6285326781097'
-global.namebot = 'Xia Feixuan-V4'
-global.nameown = 'Xianzhe ID'
+global.nomorbot = '6289518377899'
+global.nomorown = '62895327999292'
+global.namebot = 'WannTrue BOT'
+global.nameown = 'WannTrue'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'XianzheID' // nama github lu
-global.linkgithub = 'https://github.com/xianzheid' // tarok link github lu
+global.namagithub = 'wannjb' // nama github lu
+global.linkgithub = 'https://github.com/wannjb' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
@@ -85,8 +85,8 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285326781097', 'Xianzhe ID', true],
-  ['6285358805324', 'Xia Feixuan', true],
+  ['62895327999292', 'WannTrue', true],
+  ['62895327999292', 'WannTrue', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
@@ -435,7 +435,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'Creator '
-global.stickauth = `©Xianzhe ID`
+global.stickauth = `© WannTrue`
 
 global.multiplier = 30 // The higher, The harder levelup
 
